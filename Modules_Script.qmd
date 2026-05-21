@@ -1,5 +1,7 @@
 ---
 title: "Hw5_Script"
+authors: Elena Nirgiotis & Kalena Sapp
+date: May 19th, 2026
 format: html
 editor: visual
 ---
