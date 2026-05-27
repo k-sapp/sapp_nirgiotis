@@ -1,19 +1,19 @@
 
 # main.R
 # Sea Level Rise Impact Analysis - Santa Barbara Coastline
-# Authors: Kalena Sapp & Elena Nirgiotis
+# Authors: Elena Nirgiotis & Kalena Sapp
 
 source("scripts/load_data.R")
 source("scripts/classify_flood_zone.R")
 source("scripts/compute_affected_area.R")
 source("scripts/generate_report.R")
 
-# --- Step 1: Load data ---
+#Step 1 Load data
 data           <- load_data()
 elevation_grid <- data$elevation_grid
 scenarios      <- data$scenarios
 
-# --- Step 2: Loop through each scenario ---
+#Step 2 loop through scenarios
 results_list <- list()
 areas        <- c()
 
@@ -34,6 +34,6 @@ for (i in 1:nrow(scenarios)) {
       "| Flooded area:", round(area_km2, 2), "km2\n")
 }
 
-# --- Step 3: Generate report ---
+#Step 3 Generate report
 summary_table <- generate_report(results_list, scenarios, areas)
                                  
