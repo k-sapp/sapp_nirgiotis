@@ -1,7 +1,7 @@
 ---
 title: "Sea Level Rise Scenarios in Santa Barbara"
 authors: Elena Nirgiotis & Kalena Sapp
-date: May 19, 2026
+date: May 27, 2026
 format: html
 editor: visual
 theme: cosmo
