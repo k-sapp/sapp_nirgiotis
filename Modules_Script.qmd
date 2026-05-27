@@ -20,6 +20,15 @@ Our program is made up of 4 modules:
 -   compute_affected_area: Calculates the total flooded area in km²
 -   generate_report: Produces flood map visualizations for each scenario
 
+## Model Diagram
+```{r}
+#| message: false
+#| warning: false
+#| echo: false
+
+knitr::include_graphics("figures/diagram.png")
+```
+
 ```{r}
 #| message: false
 #| warning: false
@@ -49,6 +58,9 @@ knitr::include_graphics("figures/flood_map_2030.png")
 knitr::include_graphics("figures/flood_map_2060.png")
 knitr::include_graphics("figures/flood_map_2100.png")
 ```
+
+## Interpretation
+Based on the results, by 2100, approximately 0.03 km² of coastline is projected to flood under the high-emission scenario, representing a X-fold increase from 2030
 
 ## Data Source
 
