@@ -5,7 +5,7 @@
 
 source("scripts/load_data.R")
 source("scripts/classify_flood_zone.R")
-source("scripts/compute_affected_area.R")
+source("scripts/compute_affected_area.R") 
 source("scripts/generate_report.R")
 
 #Step 1 Load data
