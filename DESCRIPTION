@@ -1,16 +1,17 @@
 Package: SeaLevelRise
 Type: Package
-Title: What the Package Does (Title Case)
+Title: Sea Level Rise Scenario Analysis
 Version: 0.1.0
 Authors@R: c(
     person(
-      "Jane", "Doe",
-      email = "jane@example.com",
-      role = c("aut", "cre")
-    )
+      "Kalena", "Sapp",
+    ), person ("Elena", Nirgiotis)
   )
-Description: More about what it does (maybe more than one line).
-    Continuation lines should be indented.
+Description: This program models the impacts of sea level rise (SLR) 
+  on coastal ecosystems in Santa Barbara using a modular approach. 
+  We used three SLR scenarios from the City of Santa Barbara Vulnerability 
+  Assessment, based on the 2018 California Ocean Protection Council Sea-Level 
+  Rise Guidance.
 License: What license is it under?
 Encoding: UTF-8
 LazyData: true
