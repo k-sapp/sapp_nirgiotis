@@ -1,11 +1,21 @@
 ---
 title: "Sea Level Rise Scenarios in Santa Barbara"
 authors: Elena Nirgiotis & Kalena Sapp
-date: May 27, 2026
+date: June 4, 2026
 format: html
 editor: visual
 theme: cosmo
 ---
+
+```{r}
+#| message: false
+#| warning: false
+#| include: false
+library(here)
+library(tidyverse)
+devtools::load_all(here::here())
+source("main.R")
+```
 
 ## Overview
 
@@ -21,6 +31,7 @@ Our program is made up of 4 modules:
 -   generate_report: Produces flood map visualizations for each scenario
 
 ## Model Diagram
+
 ```{r}
 #| message: false
 #| warning: false
@@ -60,6 +71,7 @@ knitr::include_graphics("figures/flood_map_2100.png")
 ```
 
 ## Interpretation
+
 Based on the results, by 2100, approximately 0.03 km² of coastline is projected to flood under the high-emission scenario, representing a X-fold increase from 2030
 
 ## Data Source
