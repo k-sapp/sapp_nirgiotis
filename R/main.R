@@ -1,12 +1,12 @@
 
 # main.R
 # Sea Level Rise Impact Analysis - Santa Barbara Coastline
-#' @author Authors: Kalena Sapp & Elena Nirgiotis
+#Authors: Kalena Sapp & Elena Nirgiotis
 
 # Purpose: Model sea level rise impacts on Santa Barbara's coastline
 # Inputs:  none (data simulated internally in load_data)
-#' @return Output:  summary_table printed to console, flood map .pngs saved to figures/
-#' @param Parameters: grid resolution 30m, SLR scenarios for years 2030, 2060, 2100
+# Output:  summary_table printed to console, flood map .pngs saved to figures/
+# Parameters: grid resolution 30m, SLR scenarios for years 2030, 2060, 2100
 
 
 # --- Step 1: Load data ---

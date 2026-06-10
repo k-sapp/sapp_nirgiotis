@@ -15,17 +15,6 @@
 #'
 #' @export
 generate_report <- function(results_list, scenarios, areas) {
-  ...
-}
-# generate_report.R
-# Purpose: Generate flood map visualizations and a summary table for each SLR scenario
-# Inputs: results_list (list of data.frames with 'flooded', 'x', 'y' columns)
-#          scenarios (data.frame with columns: year, rise_m)
-#          areas (numeric vector - flooded area in km² for each scenario)
-# Output:summary_table (data.frame with columns: year, rise_m, total_area_km2)
-#           Side effect: saves flood map .png files to figures/
-
-generate_report <- function(results_list, scenarios, areas) {
 
 library(ggplot2)
 
